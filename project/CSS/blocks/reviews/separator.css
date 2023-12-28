@@ -1,0 +1,33 @@
+.separator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../../../img/Rectangle.png');
+    position: relative;
+    min-height: 360px;
+    color: #FFF;
+}
+
+.separator:after {
+    content: ' ';
+    display: block; 
+    position: absolute; 
+    width: 100%; 
+    height: 100%;
+    background: url('../../../img/couple.png') center no-repeat;
+    margin-top: 23px;
+    margin-left: 290px;
+   
+}
+
+.separator__content {
+    max-width: 50%;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 15px;
+}

@@ -1,0 +1,34 @@
+.button {
+    background: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 35px;
+    background: #F5170E;
+    padding: 15px 38px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+  
+.button--border { 
+    background: #2B2B2B;
+    border-color: #2B2B2B;
+    text-align: center;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__btn {
+    margin-right: 20px;
+}
+
+.form__btn:last-child {
+    margin-right: 0;
+} 

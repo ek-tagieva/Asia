@@ -1,0 +1,48 @@
+.service {
+    display: flex;
+}
+
+.services__item {
+  margin-bottom: 49px;
+}
+
+.services__item:last-child {
+  margin-bottom: 0px;
+}
+
+.service__img {
+    width: 30%;
+    margin-right: 5%;
+    min-width: 460px;
+    min-height: 333px;
+}
+
+.service__img-elem { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service__content {
+    flex: 1;
+    padding-top: 5px;
+}
+
+.service__title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.service__desc {
+    color: #303030;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+    margin-bottom: 30px;
+    padding-top: 29px;
+}
+
+.services {
+    margin-bottom: 60px;
+}

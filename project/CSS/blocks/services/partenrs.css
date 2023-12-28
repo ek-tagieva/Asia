@@ -1,0 +1,15 @@
+.partenrs {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 250px;
+}
+
+.partenrs__link {
+    text-decoration: none;
+    display: flex;
+    width: 270px;
+    height: 119px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}

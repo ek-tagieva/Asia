@@ -1,0 +1,28 @@
+.button {
+    background: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 35px;
+    background: #F5170E;
+    padding: 15px 38px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+  
+.button--border {
+    background: transparent;
+    border-color: #F5170E;
+    color: #F5170E;
+    padding: 25px 49px 15px 29px;
+    text-align: center;
+}
+  
+.button:hover { 
+    background: #DA0100;
+    color: #FFF;
+} 

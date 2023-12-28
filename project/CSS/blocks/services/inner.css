@@ -1,0 +1,19 @@
+.inner-section {
+    background:#FFF;
+    min-height: 537px;
+    padding: 95px 0 0 0;
+    margin-bottom: 5px;
+}
+
+.inner-section--bg--grey {
+    background: #F4F5F5;
+}
+
+.inner-section__title {
+    color: #1A1B1E;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 60px;
+}

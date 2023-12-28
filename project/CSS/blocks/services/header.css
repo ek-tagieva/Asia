@@ -1,0 +1,33 @@
+.top-line {
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 23px;
+  background: #001821 url('../../../img/headline.png') right 50% top no-repeat;
+  margin-bottom: 40px;
+}
+
+.top-line__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+    padding-top: 10px;
+    height: 93px;
+    margin-bottom: -15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.header__col {
+    display: flex;
+    align-items: center;
+  }
+  
+.header__col--align--right {
+    justify-content: flex-start;
+  }
